@@ -4,6 +4,9 @@
     <Filter Include="Solar">
       <UniqueIdentifier>{66A81B0E-D2BC-43BF-9B3E-E71E071240F0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Solar\Events">
+      <UniqueIdentifier>{8A251FE3-7688-AE87-1F0E-E73D0B507A0A}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Solar.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Solar\EntryPoint.h">
       <Filter>Solar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Solar\Events\ApplicationEvent.h">
+      <Filter>Solar\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Solar\Events\Event.h">
+      <Filter>Solar\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Solar\Events\KeyEvent.h">
+      <Filter>Solar\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Solar\Events\MouseEvent.h">
+      <Filter>Solar\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Solar\Log.h">
       <Filter>Solar</Filter>
